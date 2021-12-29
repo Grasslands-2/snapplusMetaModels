@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+models/
+data/
+butcheredMods/
+modelMetricsFromCondor/
+stepAICmodels/
+modelsFromCondor/
+condorJobs.xlsx
+test.csv
