@@ -5,8 +5,8 @@
 models/
 data/
 butcheredMods/
+modelsFromCondor/
 modelMetricsFromCondor/
 stepAICmodels/
-modelsFromCondor/
 condorJobs.xlsx
 test.csv

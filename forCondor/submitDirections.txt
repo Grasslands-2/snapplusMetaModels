@@ -1,0 +1,23 @@
+1. Log in with global connect
+2. Log in on terminal: ssh emchasen@scarcity-submit.glbrc.org
+3. Make new working directory and set new working directory
+4. Move all files into working directory (bashScript.sh, submitFile.txt, data and R files)
+5. give permissions to bashScript and R files (chmod 775 bashScript.sh and chmod 775 *.R)
+6. condor_submit submitFile.txt
+
+#To check jobs
+condor_q
+#To remove jobs
+condor_rm <ID> or -all
+# to remove files
+rm *log
+rm *err 
+rm -f *log (force remove without checking)
+
+
+To open the R script - conda activate r_ml2 and then R. To get out q()
+
+If I need to create a new environment, I can create a conda env file (.yml)
+
+
+conda env create -n gscape --file /root/conda-env.yml (with channels and dependencies)
